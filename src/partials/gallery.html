@@ -1,7 +1,18 @@
 <section class="gallery">
-  <img
-    class="ice-cream__img"
-    src="images/icecream.jpg"
-    alt="Ольга Рєпіна розробник"
-  />
+  <picture>
+    <source
+      srcset="images/icecream-desktop.jpg 1x, images/icecream-desktop.jpg 2x"
+      media="(min-width:1200px)"
+    />
+    <source
+      srcset="images/icecream.jpg 1x, images/icecream.jpg 2x"
+      media="(max-width:767px)"
+    />
+    <source
+      srcset="images/icecream-tablet.jpg 1x, images/icecream-tablet.jpg 2x"
+      media="(min-width:768px)"
+    />
+    <img class="ice-cream__img" src="images/icecream.jpg" alt="ice-cream" />
+  </picture>
+  <!-- <img class="ice-cream__img" src="images/icecream.jpg" alt="ice-cream" /> -->
 </section>
