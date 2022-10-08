@@ -1,5 +1,5 @@
 .gallery {
-  padding: 0 94px;
+  // padding: 0 94px;
   // height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -8,7 +8,7 @@
       rgba(132, 161, 120, 1) 24px,
       rgba(255, 161, 120, 0) 10px
     ),
-    url(../images/bg-icecream.jpg);
+    url(../images/bg-icecream-mobile.jpg);
 }
 
 .ice-cream__img {
@@ -22,11 +22,12 @@
 }
 @media screen and(min-width: 1200px) {
   .gallery {
+    // height: 1020px;
     background-image: linear-gradient(
         rgba(132, 161, 120, 1) 98px,
         rgba(255, 161, 120, 0) 10px
       ),
-      url(../images/bg-icecream.jpg);
+      url(../images/bg-icecream-desktop.jpg);
   }
 }
 
@@ -36,6 +37,6 @@
         rgba(132, 161, 120, 1) 164px,
         rgba(255, 161, 120, 0) 10px
       ),
-      url(../images/bg-icecream.jpg);
+      url(../images/bg-icecream-tablet.jpg);
   }
 }
