@@ -2,18 +2,7 @@
   width: 100%;
   height: 0;
   position: relative;
-  // padding: 0 94px;
-  // height: 500px;
-  // background-size: cover;
-  // background-repeat: no-repeat;
-  // background-position: center;
-  // background-image: linear-gradient(
-  //     rgba(132, 161, 120, 1) 24px,
-  //     rgba(255, 161, 120, 0) 10px
-  //   ),
-  //   url(../images/bg-icecream-mobile.jpg);
 }
-
 .ice-cream__img {
   max-width: 100%;
   position: absolute;
@@ -23,7 +12,7 @@
   transform: translate(-50%, -24px);
   border-radius: 7.40681px;
 }
-@media screen and(min-width: 480px) and (max-width: 768px) {
+@media screen and(min-width: 480px) and (max-width: 767px) {
   .ice-cream__img {
     max-width: 75%;
     border-radius: 18px;
