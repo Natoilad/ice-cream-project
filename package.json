@@ -2,10 +2,10 @@
   "name": "ice-cream-shop",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://alexxxusachev888.github.io/ice-cream-shop",
+  "homepage": "https://Natoilad.github.io/ice-cream-project",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /ice-cream-shop/"
+    "build": "parcel build src/*.html --public-url /ice-cream-project/"
   },
   "repository": {
     "type": "git",
